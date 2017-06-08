@@ -1,0 +1,73 @@
+html{
+  background: url(banner/banner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title{
+  margin-left: 50px;
+}
+
+.title h3{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  margin: 0 0 0 0;
+}
+
+.container{
+  margin: 50px 0 60px 50px;
+}
+
+#pr1{
+  padding-bottom: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: flex;
+    font-size: 20px;
+}
+#pr1 p{
+  margin: 20px 0 0 20px;
+}
+#pr2{
+  padding-bottom: 60px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: flex;
+  font-size: 20px;
+}
+#pr2 p{
+  margin: 20px 0 0 20px;
+}
+#pr3{
+  padding-bottom: 60px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: flex;
+  font-size: 20px;
+}
+#pr3 p{
+  margin: 20px 0 0 20px;
+}
+
+
+
+.back{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.back a{
+  color: white;
+  text-decoration: none;
+}
+
+.back a:visited{
+  color: white;
+}
+
+.back a:active{
+  color: white;
+}

@@ -1,0 +1,177 @@
+body{
+  background-color: lightgray;
+  margin: 0px;
+  padding: 0;
+}
+
+
+.header_logo{
+  position: absolute;
+  display: inline-block;
+  margin-right: 40px;
+
+}
+
+nav{
+  display: inline-block;
+	position: absolute;
+  left: 35px;
+	width: 89%;
+	height: 77px;
+	background-color: white;
+}
+
+.nav_menu{
+	position: absolute;
+	display: block;
+	width: 900px;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+	left: 60%;
+	margin-left: -400px;
+
+}
+
+.nav_menu ul li {
+	display: inline-block;
+
+}
+
+
+.nav_menu ul li a:link{
+  padding-top: 29px;
+	color: gray;
+	text-decoration: none;
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+.nav_menu ul li a:visited{
+	color: gray;
+}
+
+.nav_menu ul li:hover ul{
+  display: inline;
+}
+
+.nav_menu ul li a:hover{
+	color: red;
+  border-top: 1px solid red;
+}
+
+.searchbttn_nav{
+  background-color: lightgray;
+  position: absolute;
+  left: 90%;
+  bottom: 5%;
+  top: 0px;
+  padding-right: 80px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  height: 32px;
+  right: 10px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdowncon {
+    display: none;
+    background-color: #404040;
+    min-width: 160px;
+}
+
+.dropdowncon a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdowncon a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdowncon {
+    display: block;
+}
+
+.headpic{
+  position: absolute;
+  top: 12%;
+}
+
+.filtertitlepic{
+  position: absolute;
+  top: 400px;
+  left: 39%;
+  opacity: 0.7;
+
+}
+
+.filtertitle{
+  position: absolute;
+  color: white;
+  top: 400px;
+  left: 42.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+}
+
+.filterbar{
+  background-color: #404040;
+  position: absolute;
+  top: 477px;
+  left: 415px;
+  padding: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.filterbar a{
+  color: white;
+  padding-left: 35px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.optionst{
+  background-color: gray;
+}
+
+.optionstt{
+  padding-top: 5px;
+}
+
+.info1{
+  position: absolute;
+  top: 105%;
+  left: 15%;
+}
+
+.info1_t ul{
+  list-style-image: url("assets/assets/Bullet.png");
+  color: #FA0B63;
+  font-family: arial;
+}
+
+.info1_t a{
+  text-decoration: none;
+}
+
+
+
+.info1_t a:visited{
+  color: #FA0B63;
+  font-family: arial;
+}
+
+.info1_t{
+  background-color: white;
+}

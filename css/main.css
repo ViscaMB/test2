@@ -1,0 +1,128 @@
+html{
+  background: url(banner/banner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo{
+  margin: 50px 0 0 50px;
+  display: flex;
+}
+
+.logo img {
+  border-radius:20px;
+}
+
+.logo p{
+  color: white;
+  font-size: 18px;
+  margin: 30px 0 0 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title h3{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  margin: 0 0 0 0;
+}
+
+.title p{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#proj {
+	width: 700px;
+	margin: 0 auto;
+	min-height: 300px;
+}
+
+#proj img {
+	margin: 25px;
+	opacity: 0.8;
+	border: 10px solid #eee;
+
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+
+	/*Reflection*/
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+
+#proj img:hover {
+   opacity: 1;
+
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+
+#klant {
+	width: 700px;
+	margin: 0 auto;
+	min-height: 300px;
+}
+
+#klant img {
+	margin: 25px;
+	opacity: 0.8;
+	border: 10px solid #eee;
+
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+
+	/*Reflection*/
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+
+#klant img:hover {
+   opacity: 1;
+
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+
+#klant p{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 100px;
+}
+
+.option{
+  display: flex;
+  justify-content: center;
+  margin-left: 180px;
+}
+
+.info {
+  position: absolute;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 70%;
+  top: 60px;
+}

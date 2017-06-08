@@ -1,0 +1,10 @@
+Bij de eerste les van mij keuzedeel Front-End
+moesten wij een website zo goed mogelijk na maken
+
+De website moest lijken op: Zie "Allseas website idea.png"
+in de Project map.
+
+Ik kon het helaas niet helemaal afmaken, want wij hadden
+niet genoed tijd gekregen.
+
+project1.html is het index

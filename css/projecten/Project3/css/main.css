@@ -1,0 +1,101 @@
+nav{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 40px;
+  padding-left: 0;
+  padding-right: 160px;
+
+}
+
+ul li{
+  margin-left: 70px;
+  padding-left: 30px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: orange;
+  border-bottom: solid;
+
+}
+
+nav p{
+  padding-left: 40px;
+  margin-top: 40px;
+}
+
+nav p i{
+  color: orange;
+}
+
+.logo{
+  margin: 0 0 5px 30px;
+  padding: 0;
+
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  margin-top: 100px;
+  padding-top: 110px;
+  background-image: url(banner/banner.jpg);
+  height: 250px;
+  width: 100%;
+}
+
+.bannerImg{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: white;
+  background: rgba(255, 165, 0, 0.7);
+  width: 300px;
+  height: 150px;
+  top: 250px;
+  margin-left: 37%;
+}
+
+.bannerImg p{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.subText{
+margin-top: 100px;
+}
+
+.subText h4{
+  font-family: 'Raleway', sans-serif;
+  margin-right: 70px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.subText p{
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  justify-content: row;
+
+}
